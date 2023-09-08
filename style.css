@@ -41,7 +41,7 @@ body {
   min-height: 100vh;
 }
 
-.background {
+.bg {
   --bg: hsl(240, 100%, 10%);
   background: var(--bg);
   position: fixed;
@@ -53,7 +53,7 @@ body {
 .toggle {
   z-index: 1;
   &:checked {
-    & ~ .background {
+    & ~ .bg {
       --bg: white;
     }
     & ~ .title {
